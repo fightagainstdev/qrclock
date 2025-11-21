@@ -9,10 +9,10 @@ import Theme from "../theme";
 
 const Lobby = () => {
   const render = /*html*/ `<div class="lb wh jc">${Logo()}<div class="lb-b"><div class="lb-s jc">${[
-    ["progress", "✩"],
-    ["infinite", "∞"],
+    ["progress", "✩", "进展"],
+    ["infinite", "∞", "无穷模式"],
   ]
-    .map((v) => Button(v[0], v[1], "lb-bu", v[0], 130))
+    .map((v) => Button(v[0], v[1], "lb-bu", v[2], 130))
     .join(
       ""
     )}</div>${Theme()}<div class="lb-o jc"><a href="https://bio.link/jorgerub" target="_blank" class="btn bor jc">☻</a>${[
