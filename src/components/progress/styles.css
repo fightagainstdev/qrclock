@@ -1,0 +1,28 @@
+.pro {
+  flex-direction: column;
+  position: relative;
+}
+
+.pro h2 {
+  margin-bottom: 20px;
+}
+
+.pro .btm {
+  margin-top: 20px;
+}
+
+.pro .bta {
+  font-size: 20px;
+}
+
+.pro #bt-prev,
+.pro #bt-next {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+}
+
+.pro #bt-next {
+  left: unset;
+  right: 8px;
+}

@@ -1,0 +1,63 @@
+.g-o {
+  background: var(--bs);
+  position: absolute;
+  z-index: 20;
+  display: none;
+}
+
+.g-o.a {
+  display: flex;
+}
+
+.g-o.mo .ti,
+.g-o.mo #bt-play {
+  display: none;
+}
+
+.g-o.mo .me {
+  display: flex;
+}
+
+.g-o.P .sta {
+  display: block;
+}
+
+.g-o .sta {
+  position: absolute;
+  top: 20px;
+  display: none;
+}
+
+.g-o .t,
+.g-o .ti {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+}
+
+.g-o,
+.g-o .ti,
+.g-o .me {
+  flex-direction: column;
+}
+
+.g-o .me {
+  display: none;
+}
+
+.g-o .ti {
+  top: 20px;
+}
+
+.g-o .t {
+  bottom: 0;
+  justify-content: space-between;
+}
+
+.g-o #play {
+  font-size: 80px;
+}
+
+.g-o .t .btn {
+  font-size: 45px;
+}

@@ -1,0 +1,10 @@
+import "./styles.css";
+import Button from "../../../button";
+import Start from "../../../start";
+
+export default () =>
+  /*html*/ `<div class="g-t"><div class="t"><div class="s">${Start()}<span>时间</span></div><div class="c">00</div></div>${Button(
+    "pause",
+    "||",
+    "bt"
+  )}</div>`;

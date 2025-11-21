@@ -1,0 +1,9 @@
+.ga {
+  position: relative;
+  cursor: pointer;
+}
+
+.ga.in #bt-next,
+.ga.in .s {
+  display: none;
+}

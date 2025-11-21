@@ -1,0 +1,44 @@
+.g-t {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.g-t .t {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: all 300ms;
+}
+
+.g-t .t.h {
+  opacity: 0;
+}
+
+.g-t .c {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.g-t .s {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.g-t .s span {
+  display: block;
+  font-size: 13px;
+}
+
+.g-t .bt {
+  font-size: 23px;
+  font-weight: bold;
+}

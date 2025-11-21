@@ -1,0 +1,11 @@
+.bullet {
+  position: absolute;
+  opacity: 0;
+  background: var(--whi);
+  z-index: 15;
+}
+
+.bullet.a {
+  transition: transform 100ms linear;
+  opacity: 1;
+}

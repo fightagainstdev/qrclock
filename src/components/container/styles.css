@@ -1,0 +1,13 @@
+#container {
+  background: var(--bs);
+}
+
+@media only screen and (max-width: 420px) {
+  #container {
+    background: unset;
+  }
+
+  body {
+    background: var(--bs);
+  }
+}

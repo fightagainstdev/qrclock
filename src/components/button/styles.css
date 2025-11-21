@@ -1,0 +1,22 @@
+.btn {
+  background: var(--whi);
+  border: none;
+  color: var(--bs);
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn-w {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  align-items: center;
+}
+
+.btn-w span {
+  margin-top: 10px;
+}
+
+.btn[disabled] {
+  opacity: 0.5;
+}
